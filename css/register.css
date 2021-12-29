@@ -1,0 +1,276 @@
+/* Global */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    height: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* Header */
+
+.site-header {
+    background-color: #293f50;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-link {
+    margin: 0;
+    margin-bottom: 45px;
+    width: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color: #fff;
+}
+
+.hero-link:before {
+    display: inline-block;
+    content: "";
+    width: 340px;
+    height: 4px;
+    background: #648880;
+    margin-bottom: 50px;
+}
+
+.hero-link:hover {
+    opacity: 0.8;
+}
+
+.hero-link:active {
+    opacity: 0.6;
+}
+
+.new {
+    text-align: center;
+}
+
+.div2 {
+    padding-top: 100px;
+}
+
+.link {
+    padding-left: 140px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    color: #648880;
+}
+
+.sitenav {
+    margin-right: 25px;
+}
+
+.sitenav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.sitenav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sitenav-link:hover {
+    opacity: 0.8;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
+}
+
+/* Main */
+
+.hero {
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    padding: 44px 22px;
+    margin-bottom: 60px;
+}
+
+.site-content {
+    text-align: center;
+}
+
+.site-heading {
+    color: #648880;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.site-text {
+    color: #648880;
+    margin: 0;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+/* Section */
+
+.heroo {
+    margin-bottom: 60px;
+}
+
+.site-main-contanier {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content {
+    width: 600px;
+}
+
+.hero-heding {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #648880;
+}
+
+.heroo-heding {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #648880;
+}
+
+.hero-span {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #a9b2b9;
+}
+
+.hero-text {
+    color: #888;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.site-list {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+.hero-heading {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #888;
+}
+
+.site-contentt {
+    margin-right: 100px;
+}
+
+.site-heeding {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #648880;
+}
+
+.site-heeeding {
+    margin: 0;
+    margin-top: 26px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #648880;
+}
+
+.global-input {
+    padding: 5px 70px 5px 10px;
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+}
+
+.global-inputt {
+    margin-bottom: 40px;
+    padding: 5px 70px 50px 10px;
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+}
+
+.main-button {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.button-info {
+    padding: 11px 30px;
+    background: #648880;
+    color: #fff;
+}
+
+/* Footer */
+
+.site-footer {
+    background-color: #293f50;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-site {
+    margin-right: auto;
+}
+
+.link-footer {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #648880;
+}
+
+.sitenavv-link {
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
