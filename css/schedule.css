@@ -150,9 +150,26 @@ body {
     margin-bottom: 40px;
 }
 
-.sitee-heading {
-    margin-right: 40px;
+.site-divv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.siteee-heading {
+    margin-right: 45px;
+    font-weight: 300;
+    font-size: 25px;
     color: #648880;
+    padding-left: 45px;
+}
+
+.sitee-heading {
+    margin-right: 41px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #648880;
+    padding-left: 45px;
 }
 
 .site-heding {
@@ -173,7 +190,7 @@ body {
 }
 
 .site-span {
-    margin-right: 45px;
+    margin-right: 47px;
     padding-left: 110px;
     color: #a9b2b9;
 }
@@ -182,6 +199,31 @@ body {
     margin-right: 48px;
     padding-left: 100px;
     color: #a9b2b9;
+}
+
+.div1 {
+    margin-top: 20px;
+    margin-right: 46px;
+}
+
+.div3 {
+    width: 330px;
+    margin-top: 40px;
+}
+
+.div4 {
+    margin-top: 20px;
+    margin-right: 145px;
+}
+
+.div5 {
+    margin-top: 20px;
+    margin-right: 118px;
+}
+
+.div6 {
+    margin-top: 20px;
+    margin-right: 220px;
 }
 
 .div-sitenav {
