@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 /* Global */
 
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -9,7 +17,12 @@ html {
 }
 
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin: 0;
     padding: 0;
@@ -33,7 +46,11 @@ body {
 }
 
 .div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -87,6 +104,8 @@ body {
 }
 
 .sitenav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
     padding: 0;
@@ -113,6 +132,8 @@ body {
 /* Main */
 
 .hero {
+    background: -webkit-gradient(linear, left top, right top, from(#a1d3b0), to(#f6f1d3));
+    background: -o-linear-gradient(left, #a1d3b0, #f6f1d3);
     background: linear-gradient(to right, #a1d3b0, #f6f1d3);
     padding: 44px 22px;
     margin-bottom: 50px;
@@ -144,7 +165,11 @@ body {
 }
 
 .site-main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -166,6 +191,8 @@ body {
 }
 
 .site-div {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: center;
 }
@@ -192,7 +219,11 @@ body {
 }
 
 .main-header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
